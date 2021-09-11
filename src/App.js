@@ -29,10 +29,10 @@ function App() {
     <div className="container-fluid my-5">
       <div className="row">
         <div className="col-sm-6 mx-auto text-white shadow-lg p-3">
-          <h2 className="text-center">To Do List</h2>
+          <h2 className="text-center">Friends List</h2>
           <div className="row">
             <div className="col-9">
-              <input type="text" className="form-control" placeholder="Write plan here..." onChange={ handleChange } value={ text } />
+              <input type="text" className="form-control" placeholder="Friends name..." onChange={ handleChange } value={ text } />
             </div>
             <div className="col-2">
               <button className="btn btn-warning px-5 font-weight-bold" onClick={ handleAdd }>Add</button>
